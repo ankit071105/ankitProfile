@@ -17,9 +17,6 @@ justify-content: center;
  margin-left: -60px;
 
 }
-
-
-
 header nav ul {
   display: flex;
   justify-content: center;
@@ -43,40 +40,6 @@ header nav ul li a:hover {
 header nav ul li .active {
   color: #fbfbfb;
 }
-
-header nav .search {
-  height: 48px;
-width: 100px;
-  background-color: #3d3e42;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 4px;
-  border-radius: 10px;
-}
-
-header nav .search input {
-  border: none;
-  background-color: transparent;
-  width: 80%;
-  color: #fbfbfb;
-  outline: none;
-}
-
-header nav .search input:focus {
-  border: none;
-  outline: none;
-}
-
-header nav .search input::placeholder {
-  color: #98999a;
-  font-size: 16px;
-}
-
-header nav .search i {
-  color: #98999a;
-}
-
 .landing {
   display: flex;
   height: 90vh;
@@ -94,7 +57,7 @@ header nav .search i {
   color: #145175;
   font-weight: 400;
   font-size: 62px;
-  margin-left: 10vw;
+
   text-align: center;
   transition: all ease-in-out 1.5s;
 }
@@ -291,16 +254,7 @@ header nav .search i {
   margin-top: 50px;
   gap: 2.5vh;
 }
-@media (maxwidth: 500px) {
-  .portfolio-card {
-    height: 70vw;
-    width: 30vw;
-  }
-  .portfolio-card img {
-    height: 70vw;
-    width: 30vw;
-  }
-}
+
 .portfolio-card {
   position: relative;
   height: 60vw;
