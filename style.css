@@ -513,8 +513,8 @@ padding-top: 20px;
         
         
         :root{
-          --bg: linear-gradient(to bottom, #000000, #1b1d1e);
-        
+         
+          --bg: linear-gradient(to bottom, rgb(0, 235, 235) 0%, #0a35aa 100%);
         --bg-input: #e1e1ed;
         }
         
@@ -523,7 +523,7 @@ padding-top: 20px;
         
         .light-mode {
 
-        --bg: linear-gradient(to bottom, rgb(0, 235, 235) 0%, #0a35aa 100%);
+          --bg: linear-gradient(to bottom, #000000, #1b1d1e);
         --bg-input: #fcf9f9;
         }
         
