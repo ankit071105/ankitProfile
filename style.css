@@ -1,23 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Roboto", sans-serif;
-  background-color: #34353b;
-}
-
 header {
   height: 100vh;
   padding: 36px 100px;
@@ -30,23 +11,18 @@ header {
 
 header nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+justify-content: center;
   position: relative;
-  width: 90%;
-  z-index: 99;
-}
-
-header nav img {
-  height: 56px;
-  width: 56px;
-  
-  object-fit: cover;
+ width: 100%;
+ margin-left: -60px;
 
 }
+
+
 
 header nav ul {
   display: flex;
+  justify-content: center;
 }
 
 header nav ul li {
@@ -70,11 +46,11 @@ header nav ul li .active {
 
 header nav .search {
   height: 48px;
-  width: 200px;
+width: 100px;
   background-color: #3d3e42;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 4px;
   border-radius: 10px;
 }
@@ -154,7 +130,7 @@ header nav .search i {
 .socials {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 35px;
   align-items: center;
   margin-top: 50vh;
 }
@@ -168,11 +144,13 @@ header nav .search i {
 .socials i {
   color: #5e48ff;
   font-size: 36px;
+  padding: 10px;
+  border: 3px solid #000000;
+  border-radius: 100%;
+  background-color: #2d0e37;
 }
 
 .about {
-
-
   padding-top: 250px;
 }
 
@@ -301,16 +279,12 @@ header nav .search i {
   font-weight: 400;
   color: #fbfbfb;
 }
-
 .portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
-
-
 .portfolio-cards {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -355,7 +329,6 @@ header nav .search i {
   transform: translate(-50%, -60%);
   display: flex;
   flex-direction: column;
-
   height: 40vw;
   width: 30vw;
   background-color: #34353ba2;
@@ -590,6 +563,8 @@ padding-top: 20px;
       :root {
         --bg: rgb(137, 144, 158);
         --bg-input: #141419;
+        width:100%;
+    
         }
         
         
