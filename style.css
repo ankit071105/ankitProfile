@@ -14,7 +14,13 @@ header nav ul {
   justify-content: center;
 
 }
+h1{
+  color: aliceblue !important;
+               }  
+.description p{
+  font-size: 29px !important;
 
+}
 header nav ul li {
   list-style: none;
   margin: 0px 20px;
@@ -35,7 +41,6 @@ header nav ul li .active {
 }
 .landing {
   display: flex;
-
   background-color: transparent;
   align-items: center;
  justify-content: center;
@@ -50,7 +55,7 @@ header nav ul li .active {
   color: #145175;
   
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   text-align: center;
   transition: all ease-in-out 2.5s;
 }
@@ -59,7 +64,7 @@ header nav ul li .active {
   color: #926712;
   font-weight: 600;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   transition: all ease-in-out 2.5s;
 }
 
@@ -146,11 +151,12 @@ header nav ul li .active {
 .cards {
   display: flex;
   align-items: center;
-  width: 100%;
-  flex-wrap: wrap;
-  justify-content: center;
+
+
+
+
   margin-top: 50px;
-  gap: 2.5vh;
+  gap: 3.5vh;
 }
 
 .skill-card {
@@ -173,58 +179,58 @@ header nav ul li .active {
   
     background:linear-gradient(to  bottom, rgb(18, 175, 219) 30%, rgb(136, 13, 223) 100%);
     border-radius: 100%;
-    height: 40vw;
-    width: 40vw;
+    height: 20vw;
+    width: 20vw;
 
 }
 #css:hover{
   
   background:linear-gradient(to top, rgb(30, 201, 220) 30%, rgb(11, 85, 181) 100%);
   border-radius: 50%;
-  height: 40vw;
-  width: 40vw;
+  height: 20vw;
+  width: 20vw;
 }
 #flutter:hover{
   
   background:linear-gradient(to bottom, rgb(13, 95, 202) 30%, rgb(12, 183, 221) 100%);
   border-radius: 50%;
-  height: 40vw;
-  width: 40vw;
+  height: 20vw;
+  width: 20vw;
 
 }
 #git:hover{
   
   background:linear-gradient(to top, rgb(144, 35, 4) 30%, rgb(221, 12, 54) 100%);
   border-radius: 50%;
-  height: 40vw;
-  width: 40vw;
+  height: 20vw;
+  width: 20vw;
 
 }
 #js:hover{
   
   background:linear-gradient(to bottom, rgb(238, 213, 21) 30%, rgb(235, 97, 11) 100%);
   border-radius: 50%;
-  height: 40vw;
-  width: 40vw;
+  height: 20vw;
+  width: 20vw;
 
 }
 #react:hover{
   
   background:linear-gradient(to left, rgb(5, 86, 192) 30%, rgb(0, 195, 238) 100%);
   border-radius: 50%;
-  height: 40vw;
-  width: 40vw;
+  height: 20vw;
+  width: 20vw;
 }
 #html:hover{
   
   background:linear-gradient(to bottom, rgb(5, 90, 201) 30%, rgb(136, 2, 9) 100%);
   border-radius: 50%;
-  height: 40vw;
-  width: 40vw;
+  height: 20vw;
+  width: 20vw;
 
 }
 .skill-card img {
-  height: 80px;
+  height: 90px;
   width:80px;
   object-fit: contain;
 }
@@ -246,7 +252,7 @@ header nav ul li .active {
 .portfolio-card {
   margin-right: 20px;
   position: relative;
-  height: 140vw;
+  height: 60vw;
   width: 40vw;
   background-color: #3d3e42;
   border-radius: 20px;
@@ -259,8 +265,8 @@ margin-top: 20px;
 
 .portfolio-card img {
   position: relative;
-  height: 140vw;
-  width: 45vw;
+  height: 60vw;
+  width: 40vw;
   object-fit: cover;
   object-position: center;
 }
@@ -272,7 +278,7 @@ margin-top: 20px;
   transform: translate(-50%, -60%);
   display: flex;
   flex-direction: column;
-  height: 100vw;
+  height: 50vw;
   width: 35vw;
   background-color: #34353ba2;
   align-items: center;
@@ -514,7 +520,7 @@ padding-top: 20px;
         
         :root{
          
-          --bg: linear-gradient(to bottom, rgb(0, 235, 235) 0%, #0a35aa 100%);
+          --bg: linear-gradient(to bottom, rgb(123, 156, 246) 20% , rgb(233, 86, 0) 50%, rgb(177, 21, 177) 100%);
         --bg-input: #e1e1ed;
         }
         
@@ -606,3 +612,294 @@ width: 100%;
 display: flex;
 
         }
+
+        @media (max-width: 570px) {
+             h1{
+color: aliceblue !important;
+             }   
+             p{
+              color: aliceblue !important;
+
+             }  
+             span{
+              color: rgb(99, 200, 4);
+             }
+        :root{
+         
+          --bg: linear-gradient(to bottom, rgb(65, 15, 84) 0%, #79e7ff 100%);
+        --bg-input: #e1e1ed;
+        color: whitesmoke;
+        }
+        
+        
+        /* light mode edited */
+        
+        .light-mode {
+
+          --bg: linear-gradient(to bottom, #18092b, #101932);
+        --bg-input: #fcf9f9;
+        }
+        
+
+          .landing .intro h3 {
+            color: #70cbff;
+            
+            font-weight: 400;
+            font-size: 3.5rem;
+            text-align: center;
+            transition: all ease-in-out 2.5s;
+          }
+          
+          .landing .intro h3 span {
+            color: #efa30c;
+            font-weight: 600;
+            text-align: center;
+            font-size: 3.5rem;
+            transition: all ease-in-out 2.5s;
+          }
+
+          .portfolio-card {
+            margin-right: 20px;
+            position: relative;
+            height: 120vw;
+            width: 45vw;
+            background-color: #3d3e42;
+            border-radius: 20px;
+            overflow: hidden;
+            align-items: center;
+          
+          margin-top: 20px;
+            transition: all ease 0.5s;
+          }
+          
+          .portfolio-card img {
+            position: relative;
+            height: 140vw;
+            width: 45vw;
+            object-fit: cover;
+            object-position: center;
+          }
+          
+          .portfolio-card .overlay {
+            height: 110vw;
+            width: 40vw;
+          }
+          .cards {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 50px;
+            gap: 2.5vh;
+          }
+          
+          .skill-card {
+            height: 40vw;
+            width: 30vw;
+          
+            background-color: #3d3e42;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+          
+            transition: all ease 0.5s;
+          }
+
+
+          #java:hover{
+  
+            background:linear-gradient(to  bottom, rgb(18, 175, 219) 30%, rgb(136, 13, 223) 100%);
+            border-radius: 100%;
+            height: 200px !important;
+          width: 200px !important;
+        
+        }
+        #css:hover{
+          
+          background:linear-gradient(to top, rgb(30, 201, 220) 30%, rgb(11, 85, 181) 100%);
+          border-radius: 50%;
+          height: 200px !important;
+          width: 200px !important;
+        }
+        #flutter:hover{
+          
+          background:linear-gradient(to bottom, rgb(13, 95, 202) 30%, rgb(12, 183, 221) 100%);
+          border-radius: 50%;
+          height: 200px !important;
+          width: 200px !important;
+        
+        }
+        #git:hover{
+          
+          background:linear-gradient(to top, rgb(144, 35, 4) 30%, rgb(221, 12, 54) 100%);
+          border-radius: 50%;
+          height: 200px !important;
+          width: 200px !important;
+        
+        }
+        #js:hover{
+          
+          background:linear-gradient(to bottom, rgb(238, 213, 21) 30%, rgb(235, 97, 11) 100%);
+          border-radius: 50%;
+          height: 200px !important;
+          width: 200px !important;
+        
+        }
+        #react:hover{
+          
+          background:linear-gradient(to left, rgb(5, 86, 192) 30%, rgb(0, 195, 238) 100%);
+          border-radius: 50%;
+          height: 200px !important;
+          width: 200px !important;
+        }
+        #html:hover{
+          
+          background:linear-gradient(to bottom, rgb(5, 90, 201) 30%, rgb(136, 2, 9) 100%);
+          border-radius: 50%;
+          height: 200px !important;
+          width: 200px !important;
+
+        }
+      }
+
+
+
+
+
+
+
+
+      @media (max-width: 900px) {
+
+        h1{
+          color: aliceblue !important;
+                       }   
+                       p{
+                        color: aliceblue !important;
+          
+                       }  
+                       span{
+                        color: rgb(99, 200, 4);
+                       }
+                  :root{
+                   
+                    --bg: url(https://static.vecteezy.com/system/resources/thumbnails/002/015/336/original/binary-code-with-numbers-moving-downward-on-screen-free-video.jpg);
+                  --bg-input: #e1e1ed;
+                  color: whitesmoke;
+                  }
+                  
+                  
+                  /* light mode edited */
+                  
+                  .light-mode {
+          
+                    --bg: linear-gradient(to bottom, #0f041d, #101932);
+                  --bg-input: #fcf9f9;
+                  }
+                  
+          
+                    .landing .intro h3 {
+                      color: #70cbff;
+                      
+                      font-weight: 400;
+                      font-size: 3.5rem;
+                      text-align: center;
+                      transition: all ease-in-out 2.5s;
+                    }
+                    
+                    .landing .intro h3 span {
+                      color: #efa30c;
+                      font-weight: 600;
+                      text-align: center;
+                      font-size: 3.5rem;
+                      transition: all ease-in-out 2.5s;
+                    }
+
+      .cards {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 2.5vh;
+      }
+      
+      .skill-card {
+        height: 40vw;
+        width: 40vw;
+      
+        background-color: #3d3e42;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+      
+        transition: all ease 0.5s;
+      }
+
+
+      #java:hover{
+
+        background:linear-gradient(to  bottom, rgb(18, 175, 219) 30%, rgb(136, 13, 223) 100%);
+        border-radius: 100%;
+        height: 400px !important;
+        width: 400px !important;
+    
+    }
+    #css:hover{
+      
+      background:linear-gradient(to top, rgb(30, 201, 220) 30%, rgb(11, 85, 181) 100%);
+      border-radius: 50%;
+      height: 400px !important;
+      width: 400px !important;
+    }
+    #flutter:hover{
+      
+      background:linear-gradient(to bottom, rgb(13, 95, 202) 30%, rgb(12, 183, 221) 100%);
+      border-radius: 50%;
+      height: 400px !important;
+      width: 400px !important;
+    
+    }
+    #git:hover{
+      
+      background:linear-gradient(to top, rgb(144, 35, 4) 30%, rgb(221, 12, 54) 100%);
+      border-radius: 50%;
+      height: 400px !important;
+      width: 400px !important;
+    
+    }
+    #js:hover{
+      
+      background:linear-gradient(to bottom, rgb(238, 213, 21) 30%, rgb(235, 97, 11) 100%);
+      border-radius: 50%;
+      height: 400px !important;
+      width: 400px !important;
+    
+    }
+    #react:hover{
+      
+      background:linear-gradient(to left, rgb(5, 86, 192) 30%, rgb(0, 195, 238) 100%);
+      border-radius: 50%;
+      height: 400px !important;
+      width: 200px !important;
+    }
+    #html:hover{
+      
+      background:linear-gradient(to bottom, rgb(5, 90, 201) 30%, rgb(136, 2, 9) 100%);
+      border-radius: 50%;
+      height: 400px !important;
+      width: 400px !important;
+    
+
+    }
+  }
